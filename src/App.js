@@ -1,7 +1,7 @@
 
+import MyList from './04/MyList';
 import './App.css';
 import { RiHomeHeartFill } from 'react-icons/ri';
-import MyDiv1 from './03/MyDiv1';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       </header>
 
       <main className='grow w-full flex justify-center items-center overflow-y-auto'>
-        <MyDiv1/>
+        <MyList/>
       </main>
 
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
