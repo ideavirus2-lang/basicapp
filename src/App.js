@@ -9,8 +9,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p className='bg-slate-500'>
           Edit <code>src/App.js</code> and save to reload.
-          <AiFillAccountBook/>
         </p>
+        <AiFillAccountBook/>
+        
         <a
           className="App-link"
           href="https://reactjs.org"
