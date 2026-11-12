@@ -1,13 +1,15 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Hello from './01/Hello'
+// import Hello from './01/Hello'
+import MyClock from './02/MyClock';
+import MyClockTime from './02/MyClockTime';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Hello/>
+        <MyClock/>
+        <MyClockTime/>
       </header>
     </div>
   );
