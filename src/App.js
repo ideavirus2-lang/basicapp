@@ -3,6 +3,7 @@ import MyList from './04/MyList';
 
 import './App.css';
 import { RiHomeHeartFill } from 'react-icons/ri';
+import Lotto from './05/Lotto';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       </header>
 
       <main className='grow w-full flex justify-center items-center overflow-y-auto'>
-        <MyList/>
+        <Lotto/>
       </main>
 
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
