@@ -3,8 +3,9 @@
 
 import './App.css';
 import { RiHomeHeartFill } from 'react-icons/ri';
+import Traffic  from './06/Traffic'
 // import Lotto from './05/Lotto';
-import MyClock from './02/MyClock'
+// import MyClock from './02/MyClock'
 
 
 
@@ -17,7 +18,7 @@ function App() {
       </header>
 
       <main className='grow w-full flex justify-center items-center overflow-y-auto'>
-        <MyClock/>
+        <Traffic/>
 
       </main>
 
