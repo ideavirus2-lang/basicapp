@@ -5,6 +5,7 @@ import './App.css';
 import { RiHomeHeartFill } from 'react-icons/ri';
 import Traffic  from './06/Traffic'
 import MyRef from './07/MyRef'
+import MyRefAdd from './07/MyRefAdd'
 // import Lotto from './05/Lotto';
 // import MyClock from './02/MyClock'
 
@@ -19,7 +20,7 @@ function App() {
       </header>
 
       <main className='grow w-full flex justify-center items-center overflow-y-auto'>
-        <MyRef/>
+        <MyRefAdd/>
 
       </main>
 
