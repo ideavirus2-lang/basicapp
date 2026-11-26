@@ -1,0 +1,1 @@
+PS D:\0_study\react\react_basic\basicapp\db> npx json-server --watch db.json --port 3005
