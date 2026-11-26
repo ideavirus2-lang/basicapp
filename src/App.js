@@ -6,6 +6,7 @@ import Lotto from './05/Lotto';
 import Traffic from './06/Traffic';
 import MyRefAdd from './07/MyRefAdd';
 import Gallery from './08/Gallery';
+import RecoilMain from './10/RecoilMain';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <li><Link to="/traffic">교통사고</Link></li>
             <li><Link to="/add">더하기</Link></li>
             <li><Link to="/gallery">관광</Link></li>
+            <li><Link to="/recoil">recoil 예제</Link></li>
           </ul>
           <Link to="/">
             <RiHomeHeartFill />
@@ -32,6 +34,7 @@ function App() {
             <Route path="/traffic" element={<Traffic />} />
             <Route path="/add" element={<MyRefAdd />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/recoil" element={<RecoilMain/>} />
           </Routes>
         </main>
 
