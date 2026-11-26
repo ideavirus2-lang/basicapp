@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="flex flex-col w-full min-h-screen mx-auto">
-<header className="flex justify-between items-center text-xl font-bold h-20 px-10 bg-slate-200">
+      <header className="flex justify-between items-center text-xl font-bold h-20 px-10 bg-slate-200">
           <p>리엑트 기초</p>
           <ul className="flex gap-6 text-base font-semibold">
             <li><Link to="/">시계</Link></li>
